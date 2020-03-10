@@ -1,0 +1,10 @@
+<% campgrounds.forEach(function(campground){ %>
+<div>
+    <h4> <%= campground.name%></h4>
+    <img src="<%= campground.image %>">
+
+</div>
+</li>
+<% }); %>
+
+<a href="/campgrounds/new">Add a new campground</a>

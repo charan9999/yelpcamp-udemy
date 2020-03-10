@@ -1,0 +1,17 @@
+<h1><%=campground.name%></h1>
+
+<img src="<%= campground.image %>">
+
+<p><%= campground.description%></p>
+
+<% campground.comments.forEach(function(comment){ %>
+    <p> <%= comment.author.username %> - <%= comment.text %> </p>
+    <p> submitted by <%= campground.author._id %></p>
+    
+<% }) %>
+
+
+<a href="/campgrounds/<%= campground._id %>/edit">Edit</a>
+<form action="/campgrounds/<%= campground._id %>?_method=DELETE" method="POST">
+<button> Delete</button>
+</form>

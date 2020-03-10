@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>edit comment to <%= campground.name %> </h1>
+
+    <form action="/campgrounds/<%= campground._id %>/?_method=PUT" method="POST">
+
+        <input type="text" name="campground[name]"placeholder="name">
+        <input type="text" name="campground[image]" placeholder="image url">
+        <input type="text" name="campground[description]"placeholder="description">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
