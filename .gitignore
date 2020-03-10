@@ -1,0 +1,11 @@
+v10/node_modules
+yelpcamp/node_modules
+yelpcamp-addingAuthentication/node_modules
+yelpcamp-comments/node_modules
+yelpcamp-comments-nestedroutes/node_modules
+yelpcamp-mongodb/node_modules
+yelpcamp-mongodb-data persistence/node_modules
+yelpcamp-Refactoring Routes/node_modules
+yelpcamp-update-destroy(error-in-comments)/node_modules
+yelpcamp-user-associations-campgrounds/node_modules
+yelpcamp-user-associations-comments/node_modules
